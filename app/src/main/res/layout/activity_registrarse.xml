@@ -13,7 +13,8 @@
         android:layout_marginStart="185dp"
         android:layout_marginTop="83dp"
         android:layout_marginEnd="168dp"
-        android:text="TextView"
+        android:text="Registrarse"
+        android:textSize="@dimen/_16sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +28,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
+        android:hint="nombre"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="TouchTargetSizeCheck" />
@@ -41,7 +42,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
+        android:hint="Email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         tools:ignore="TouchTargetSizeCheck" />
@@ -55,7 +56,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
+        android:hint="Contraseña"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
         tools:ignore="TouchTargetSizeCheck" />
@@ -69,7 +70,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
+        android:hint="Confirmar Contraseña"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
@@ -80,7 +81,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="148dp"
         android:layout_marginTop="56dp"
-        android:text="Button"
+        android:text="Registrar"
+        android:onClick="registrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
 
@@ -88,9 +90,12 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="41dp"
-        android:text="TextView"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="40dp"
+        android:text="Iniciar Sesión"
+
+        android:textColor="#0629EC"
+        android:textSize="@dimen/_16sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
